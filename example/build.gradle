@@ -30,7 +30,7 @@ android {
 
 dependencies {
     compile "com.android.support:design:${supportVersion}"
-    compile project(path: ':vpbs', configuration: 'debug')
+    compile project(path: ':vpbs', configuration: 'debugRuntimeElements')
 
     compile "com.jakewharton:butterknife:${butterknifeVersion}"
     apt "com.jakewharton:butterknife-compiler:${butterknifeVersion}"

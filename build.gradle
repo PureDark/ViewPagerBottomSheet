@@ -17,7 +17,7 @@ ext {
     nexusPassword = getEnvOrProperty('NEXUS_PASSWORD')
 
     compileSdkVersion = 25
-    buildToolsVersion = '25.0.0'
+    buildToolsVersion = '26.0.2'
     targetSdkVersion = 25
 
     supportVersion = '25.2.0'
